@@ -15,7 +15,7 @@ using an implemented design on your Basys3 boards.
 
 ## Lab Summary
 
-Summarize your learnings from the lab here.
+In this lab we used a truth table to extract a naive equation using SOP. We then used a KMAP to create a min terms and max terms equation by circling the 1's and 0's respectively into groups of 2's and 4's. We identified which values changed and extracted the values that didn't and built an equation for each method by inverting each value if it didn't match the value we were going for 1 in midterms and 0 in max terms. We then put those equations into Verilog and ran a simulation that compares our naive equation to our min and max terms equations. We then wrote our code to the hardware and tested to see if it matched our truth table and it did. 
 
 
 ## Lab Questions
